@@ -1,17 +1,16 @@
-/* Asteroids Model */
+/* Jaimine Mistry W15022143	*/
+/* Model of Asteroids */
 struct point {
     float x,y;
 };
 typedef struct point coordinate_t;
 typedef struct point vector_t;
 
-/* Some insitial struct types if you want to usd them */
 struct ship {
     coordinate_t p;
     vector_t     v;
 };
 
-/* initial struts for building linked lists */
 struct rock {
     coordinate_t p;
     struct rock *next;
